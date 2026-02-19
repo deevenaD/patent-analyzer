@@ -106,7 +106,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown('<div class="title">🔬 Patent Analyzer</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">Accurate keyword search with smart punctuation handling</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtitle"> keyword search engine </div>', unsafe_allow_html=True)
 
 if 'analyzed' not in st.session_state:
     st.session_state.analyzed = False
@@ -273,4 +273,4 @@ with col3:
 
 # Footer
 st.markdown("---")
-st.caption("🔬 Patent Analyzer | Punctuation-aware search | Accurate results")
+st.caption("🔬 Patent Analyzer | keyword search engine ")
